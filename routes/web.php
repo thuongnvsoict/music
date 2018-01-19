@@ -27,4 +27,8 @@ Route::get('main', function(){
 Route::get('example', function() {
     return view('examples/example');
 });
+Route::get('phantom', function()
+{
+  return view('phantomdemo');
+});
 Route::get('convert/{id}', 'MyController@getlink');

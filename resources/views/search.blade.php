@@ -1,4 +1,3 @@
-
 <!DOCUTYPE html>
 <html>
 <head>
@@ -67,11 +66,10 @@
 //        }
 //        $test = '';
 //        ?>
-        {{--var info = <?php--}}
-            {{--echo json_encode($test); ?>;--}}
-        $("#btn1").click(function(){
-            $("#test").text("Hello world!");
-        });
+        //     {{--echo json_encode($test); ?>;--}}
+        // $("#btn1").click(function(){
+        //     $("#test").text("Hello world!");
+        // });
         //alert(info);
         //alert("Hello");
         //$("#myIframe").contents().find("#progress").html();
